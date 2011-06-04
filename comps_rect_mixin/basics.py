@@ -21,7 +21,7 @@ class Basics:
     self.set_left(right - self.width())
     return self
   def set_bottom(self, bottom):
-    self.set_top(bottom - self.top())
+    self.set_top(bottom - self.height())
     return self
   def set_x_center(self, x):
     self.set_left(x - self.width() / 2)
