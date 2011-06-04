@@ -4,6 +4,8 @@ from jca.geometry.point import Point
 
 class Basics:
   # Getters
+  def x(self):  return self.left()
+  def y(self):  return self.top()
   def x_center(self):  return (self.left() + self.right()) / 2
   def y_center(self):  return (self.top() + self.bottom()) / 2
   def bounds(self):
